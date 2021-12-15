@@ -12,11 +12,19 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="acsui://calling?acstoken=abc&name=James&groupid=123"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
+        </a>
+        <a
+          className="App-link"
+          href="acsui://calling/?acstoken=abc\&name=James\&groupid=123"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React again
         </a>
       </header>
     </div>
